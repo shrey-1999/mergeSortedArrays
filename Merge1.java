@@ -5,9 +5,9 @@ public class Merge {
 	public static int[] merge(int[] arr1,int[] arr2) {
 
 		int[] arr3 = new int[arr1.length + arr2.length];
-		int i
-		int j
-		int k
+		int i=0;
+		int j=0;
+		int k=0;
 
 		while(i<arr1.length && j<arr2.length) {
 
