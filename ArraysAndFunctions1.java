@@ -36,6 +36,18 @@ public class ArraysAndFunctions {
 		
 	}
 	
+	public static void search(int[] arr, int val)
+	{ int flag=0;
+	  for(int i=0;i<arr.length();i++)
+	    { if(arr[i]==val)
+	          { System.println.out("FOUND");
+		    flag=1;
+		  }
+	    }
+	  if(flag==0)
+	     { System.println.out("NOT FOUND");
+	     }
+	}
 	public static void main(String[] args) {
 		
 		
